@@ -1,0 +1,60 @@
+--- Things learned in the git
+1. Create a New Repository on GitHub
+  a). Go to GitHub.
+  b). Click the + icon(top-right) --> New Repository
+  c). Fill In
+      Repository Name :
+      Description : "A sandbox to practice Git commands and workflows"
+      Choose Public or Private.
+      Check Initialize with a README.
+  d). Click Create repository.
+
+2). Clone the Repo Locally
+
+  git clone https://github.com/YOUR_USERNAME/RepositoryName.git
+Here RepositoryName is the name of the repository which you have created.
+
+ cd RepositoryName
+
+3. Start Practicing Git Commands
+Create a file and commit it:
+echo "# Git Practice Lab" > intro.md
+git add intro.md
+git commit -m "Add intro file"
+git push origin main
+
+
+Try branching:
+git checkout -b feature-branch
+echo "Testing branching" > branch.txt
+git add branch.txt
+git commit -m "Add branch test file"
+git push origin feature-branch
+
+
+
+🧪 4. Experiment Freely
+Practice these commands in your repo:
+- git stash, git merge, git rebase
+- git log --oneline, git diff, git tag
+- Simulate merge conflicts and resolve them
+- Use .gitignore to exclude files
+
+📚 5. Document Your Learning
+Create a git-notes.md file and log what you learn each day. Push updates regularly.
+git add git-notes.md
+git commit -m "Add notes on git stash"
+git push
+
+
+git log --oneline --> Gives a log of the series of the commits made.
+git diff <sourcebranch> <targetbranch> -- To check if the files differ. If there is output it shows the difference between the branches
+
+git log --oneline --graph --all -- This gives a clear visual of the branches.
+
+git merge -: This will merge the changes.
+
+
+
+
+Would you like me to generate a README template or a Git command checklist to include in your repo?
