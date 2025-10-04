@@ -1,2 +1,4 @@
 This is a simple learning file.
 Git is a free and open source.
+Git is a tool used for the source management. 
+Through git we can basically push our code in the branches.
